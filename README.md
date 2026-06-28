@@ -161,3 +161,23 @@ Add screenshots here after deployment.
 ## ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
+
+
+## 📸 Screenshots
+
+| Home Page                              | Product Page                                 |
+| -------------------------------------- | -------------------------------------------- |
+| ![Home Page](screenshots/homepage.png) | ![Product Page](screenshots/productpage.png) |
+
+| Shopping Cart                                  | Checkout                              |
+| ---------------------------------------------- | ------------------------------------- |
+| ![Shopping Cart](screenshots/shoppingcart.png) | ![Checkout](screenshots/checkout.png) |
+
+| Profile                             | Admin Dashboard                                |
+| ----------------------------------- | ---------------------------------------------- |
+| ![Profile](screenshots/profile.png) | ![Admin Dashboard](screenshots/adminpanel.png) |
+
+| About                           |
+| ------------------------------- |
+| ![About](screenshots/about.png) |
+
