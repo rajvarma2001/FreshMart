@@ -167,7 +167,7 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 
 | Home Page                              | Product Page                                 |
 | -------------------------------------- | -------------------------------------------- |
-| ![Home Page](screenshots/homepage.png) | ![Product Page](screenshots/productpage.png) |
+| ![HomePage](screenshots/homepage.png) | ![ProductPage](screenshots/productpage.png) |
 
 | Shopping Cart                                  | Checkout                              |
 | ---------------------------------------------- | ------------------------------------- |
