@@ -1,0 +1,163 @@
+.header-container {
+  background: #fff;
+  color: #f9fafb;
+  padding: 23px 20px;
+}
+
+.navbar{
+  justify-content: space-evenly;
+}
+
+/* Main nav wrapper */
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Logo + search */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Logo text */
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+/* Search input */
+.navbar-search{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    border: 1px solid #afb3c0;
+    border-radius: 6px;
+    padding: 6px 10px;
+    width: 500px;
+}
+.navbar-search input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+.search-icons{
+    color: #9ca3af;
+}
+.navbar-search-submit{
+  align-items: center;
+  background: #22c55e;
+  color: white;
+  padding: 6px;
+  border: 1px solid white ;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.navbar-search-submit :hover{
+  background: #097a32;
+  color: white;
+}
+
+/* Nav items */
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;   
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav links */
+.nav ul li {
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    display: block;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* Hover effect */
+.nav a:hover {
+  color: #22c55e;
+  /* background-color: #e2dfdf; */
+}
+
+.button-navbar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.button-navbar button{
+    background: transparent;
+    border: none;
+    color: #1a1a1a;
+    cursor: pointer;
+    padding: 6px;
+    background-repeat: 6px;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-navbar button:hover{
+    /* background-color: #15171d; */
+    color: #22c55e;
+}
+/* User dropdown wrapper */
+.user-menu {
+  position: relative;
+}
+
+/* Dropdown box */
+.dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 160px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  overflow: hidden; /* prevents hover overflow */
+}
+
+/* Common style for all dropdown items */
+.dropdown-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  text-align: center;
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+/* Hover effect */
+.dropdown-btn:hover {
+  background: #f5f5f5;
+}

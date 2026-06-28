@@ -1,0 +1,52 @@
+.rating-card {
+  position: absolute;
+  bottom: -24px;
+  left: -24px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  transition: transform 0.3s ease;
+  margin-left: 180px;
+}
+
+.rating-card:hover {
+  transform: scale(1.05);
+}
+
+/* Icon box */
+.rating-icon {
+  background-color: rgba(34, 197, 94, 0.1); /* light green */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Star icon */
+.star-icon {
+  width: 24px;
+  height: 24px;
+  color: #22c55e;       /* green */
+  fill: #22c55e;
+}
+
+/* Text */
+.rating-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-value {
+  font-weight: 600;
+  font-size: 16px;
+  color: #111827; /* dark */
+}
+
+.rating-reviews {
+  font-size: 14px;
+  color: #6b7280; /* gray */
+}

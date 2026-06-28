@@ -1,0 +1,166 @@
+.order-details-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.order-header {
+  margin-bottom: 30px;
+}
+
+.order-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.order-header p {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.details-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.details-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.details-card p {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.item-row:last-child {
+  border-bottom: none;
+}
+
+.item-row span:first-child {
+  flex: 1;
+  font-weight: 500;
+  color: #111827;
+}
+
+.item-row span:nth-child(2) {
+  color: #6b7280;
+  margin: 0 20px;
+}
+
+.item-row span:last-child {
+  font-weight: 600;
+  color: #16a34a;
+}
+
+.total-card {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.total-card h2 {
+  font-size: 1.8rem;
+  color: #111827;
+  font-weight: 700;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-processing {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.status-delivered {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-cancelled {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.loading-container,
+.error-container {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #f3f4f6;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #e5e7eb;
+}
+
+@media (max-width: 768px) {
+  .order-details-container {
+    padding: 20px 15px;
+  }
+
+  .order-header h1 {
+    font-size: 2rem;
+  }
+
+  .item-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .total-card {
+    justify-content: flex-start;
+  }
+
+  .total-card h2 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,155 @@
+/* Overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+}
+
+/* Modal Box */
+.modal-box {
+  background: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 16px;
+  position: relative;
+  animation: zoomIn 0.2s ease;
+}
+
+/* Animation */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Header */
+.modal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.modal-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #4caf50;
+}
+
+/* Forgot */
+.forgot {
+  text-align: right;
+}
+
+.forgot button {
+  background: none;
+  border: none;
+  color: #4caf50;
+  cursor: pointer;
+}
+
+/* Primary Button */
+.primary-btn {
+  background: #4caf50;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.primary-btn:hover {
+  background: #43a047;
+}
+
+/* Toggle Auth */
+.toggle-auth {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.toggle-auth button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+}
+
+.toggle-auth span {
+  color: #4caf50;
+  font-weight: 500;
+}
+
+/* Google Button */
+.google-section {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  background: #f5f5f5;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}

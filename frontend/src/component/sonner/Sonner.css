@@ -1,0 +1,17 @@
+.toaster {
+  font-family: Arial, sans-serif;
+}
+
+/* Optional: customize toast look */
+:root {
+  --popover: #ffffff;
+  --popover-foreground: #111827;
+  --border: #e5e7eb;
+}
+
+/* Dark mode (optional) */
+.dark {
+  --popover: #1f2937;
+  --popover-foreground: #f9fafb;
+  --border: #374151;
+}

@@ -1,0 +1,126 @@
+.edit-product-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.edit-product-container h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.edit-product-form {
+  display: grid;
+  gap: 20px;
+}
+
+.edit-product-form input,
+.edit-product-form textarea,
+.edit-product-form select {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 15px;
+  background: #f9fafb;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.edit-product-form input:focus,
+.edit-product-form textarea:focus,
+.edit-product-form select:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.edit-product-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.editproduct-btn{
+    display: flex;
+    gap: 10px;
+}
+.editproduct-submit {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.editproduct-cancel {
+  background: #e5e7eb;
+  color: black;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  height: 49px;
+  width: 141px;
+}
+
+.editproduct-submit:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.editproduct-submit:active {
+  transform: translateY(0);
+}
+
+.product-image-preview {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 2px solid #e5e7eb;
+  margin: 10px auto;
+  display: block;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .edit-product-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .edit-product-container h2 {
+    font-size: 24px;
+  }
+}
